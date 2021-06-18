@@ -1,0 +1,87 @@
+.global-header {
+    margin: 0 !important;
+}
+
+body {
+    font-family: "Fira Sans" !important;
+}
+
+::selection {
+    color: white;
+    background: black;
+}  
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: "Fira Sans";     
+}
+
+.main-container {
+    min-height: 74vh;
+    margin: 8rem 0 0 0;
+}
+
+.nav-active {
+    color: rgba(125, 125, 125, 0.8) !important; 
+ }
+
+a {
+   color: black !important;
+   text-decoration: none !important;
+   
+   &:hover {
+    color: rgba(125, 125, 125, 0.5) !important; 
+ } 
+}
+
+/*------ COLLECTIONS ------*/
+.post-list {
+     display: flex;
+     flex-wrap: wrap;
+ }
+ 
+.post-list-item {
+     padding: 1rem; 
+ }
+ 
+.next-prev-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;  
+    font-size: 1rem;
+    padding: 2rem; 
+}
+
+
+/*------ GALLERY ------*/
+.gallery {  
+    background-color: rgb(255, 255, 255);
+    
+    .gallery-item { 
+        background-color: rgb(255, 255, 255);
+       }
+   }
+  
+   .gatsby-image-wrapper {
+       margin: 0.2rem;
+   }
+
+
+.btn {
+    padding: 0.6rem 2rem !important;
+
+    &:hover {
+        color: black !important;
+        background-color: rgba(125, 125, 125, 0.5) !important;
+        border: rgba(125, 125, 125, 0.5) 1px solid  !important; 
+    } 
+}   
+
+   
+/*------ FOOTER ------*/ 
+footer {
+    margin-top: 1rem;
+    padding: 0.5rem;
+}
+
+ 
