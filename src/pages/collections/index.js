@@ -33,7 +33,7 @@ const BlogIndex = ({ data, location }) => {
           const featuredimg = post.frontmatter.featuredimg.childImageSharp.gatsbyImageData
 
           return (
-            <div className="col-6 post-list-item" key={post.fields.slug}>
+            <div className="col-md-6 post-list-item" key={post.fields.slug}>
               <Link to={post.fields.slug} itemProp="url">
                 <article className="text-center" >
                   <GatsbyImage
