@@ -80,11 +80,9 @@ export const pageQuery = graphql`
             relativePath
             childImageSharp {
               gatsbyImageData(
-                placeholder: TRACED_SVG
-                layout: CONSTRAINED
-                height: 290
-                width: 290
-              )
+                aspectRatio: 1.5, 
+                placeholder: DOMINANT_COLOR, 
+                height: 320)
             }
           }
         }
